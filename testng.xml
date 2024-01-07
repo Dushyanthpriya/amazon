@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="url" value="https://www.amazon.in/"></parameter>
+	  <parameter name="productname" value="iphone13"></parameter>
+    <classes>
+      <class name="org.executionclasses.Execution"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

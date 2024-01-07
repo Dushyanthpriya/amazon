@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="productname" value="iphone13"/>
+    <parameter name="url" value="https://www.amazon.in/"/>
+    <classes>
+      <class name="org.executionclasses.Execution">
+        <methods>
+          <include name="purchaseProduct" invocation-numbers="0"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- org.executionclasses.Execution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
